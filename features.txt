@@ -1,13 +1,11 @@
-# sentiment-analysis
-
-### Multi-Model Architecture -
+# Multi-Model Architecture -
 
 BERT/RoBERTa Integration: Uses emotion-english-distilroberta-base for state-of-the-art accuracy
 TextBlob Analysis: Provides sentiment polarity and subjectivity scores
 VADER Sentiment: Specialized for social media and informal text
 Ensemble Method: Combines all models with weighted predictions (BERT: 60%, others: 20% each)
 
-### Advanced Text Preprocessing
+# Advanced Text Preprocessing
 
 URL removal and sanitization
 User mention and hashtag cleaning
@@ -15,7 +13,7 @@ Special character handling with emoticon preservation
 Whitespace normalization
 Lowercase conversion
 
-### Evaluation & Metrics Features
+# Evaluation & Metrics Features
 
 1. Comprehensive Performance Metrics
 
@@ -31,7 +29,7 @@ Confusion Matrix Heatmap: Shows prediction vs actual emotions
 Performance Bar Charts: Visual representation of all metrics
 Detailed Classification Reports: Per-emotion precision, recall, F1
 
-###Technical Features
+#Technical Features
 
 1. GPU/CPU Optimization
 

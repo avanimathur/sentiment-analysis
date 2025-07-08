@@ -1,0 +1,7 @@
+cd <Folder>
+python -m venv venv
+.\venv\Scripts\activate
+pip install --upgrade pip setuptools wheel
+pip install -r requirements.txt
+python -m nltk.downloader stopwords punkt
+python sentiment_analysis.py
