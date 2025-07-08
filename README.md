@@ -31,7 +31,7 @@ Confusion Matrix Heatmap: Shows prediction vs actual emotions
 Performance Bar Charts: Visual representation of all metrics
 Detailed Classification Reports: Per-emotion precision, recall, F1
 
-###Technical Features
+### Technical Features
 
 1. GPU/CPU Optimization
 
